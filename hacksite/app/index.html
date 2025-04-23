@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Video Viewer</h1>
+        
+        <div class="input-section">
+            <input type="url" id="tiktokUrl" placeholder="Enter TikTok video URL">
+            <button id="loadVideo">Load Video</button>
+        </div>
+        
+        <div id="error" class="error-message"></div>
+        
+        <div id="videoContainer" class="video-container">
+            <div id="tiktokEmbed"></div>
+            <div id="viewCount" class="view-count">Views: 0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
